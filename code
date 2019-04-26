@@ -1,0 +1,19 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+    
+    public static void main(String[] args) {
+        
+        Scanner output = new Scanner(System.in);
+        
+        //loop accepting data input
+        for(int i = 1;output.hasNext();i++){
+            System.out.print(i+" "+output.nextLine()+"\n");
+            }
+        output.close();
+        
+    }
+
+}
+
